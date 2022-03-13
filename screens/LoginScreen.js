@@ -167,7 +167,7 @@ export default class LoginScreen extends Component{
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: "#15193c"
+      backgroundColor: "black"
     },
     droidSafeArea: {
       marginTop: Platform.OS === "android" ? StatusBar.currentHeight : RFValue(35)
